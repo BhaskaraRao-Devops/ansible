@@ -17,9 +17,9 @@
   connection: local
   vars: 
     course: ansible
-    durarion: 10HRS
+    duration: 10HRS
     Trainer: sivakumar
   tasks:
   - name: print the course info
     ansible.builtin.debug:
-      msg: "course name is : {{ course }}, duration is {{ durartion }}, trainer is {{ trainer }}"
+      msg: "course name is : {{ course }}, duration is {{ duration }}, trainer is {{ trainer }}"
