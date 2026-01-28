@@ -1,0 +1,12 @@
+- name: "Bhaskar"
+  age: 26
+  place: "Gara"
+  address: 
+  - doorno: "1-79"
+    street: "sc colony"
+    pincode: "Permanent"
+  skills:
+  - devops
+  - aws
+  - jenkins
+  
