@@ -9,9 +9,6 @@
     ansible.builtin.debug:
       msg: "printing 01 and 02"
 
-- name: play2
-  hosts: frontend
-  tasks:
   - name: Play 02 and task1
     ansible.builtin.debug:
       msg: "Printing 0l and o1"
