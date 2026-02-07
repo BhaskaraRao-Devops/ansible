@@ -1,0 +1,24 @@
+- name: play1
+  hosts: frontend
+  tasks:
+  - name: Play 01 and task1
+    ansible.builtin.debug:
+      msg: "Printing 0l and o1"
+  
+  - name: play 01 nand task2
+    ansible.builtin.debug:
+      msg: "printing 01 and 02"
+
+- name: play2
+  hosts: frontend
+  tasks:
+  - name: Play 02 and task1
+    ansible.builtin.debug:
+      msg: "Printing 0l and o1"
+  
+  - name: play 02 nand task2
+    ansible.builtin.debug:
+      msg: "printing 01 and 02"
+      
+ 
+  
